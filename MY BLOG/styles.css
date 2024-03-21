@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Change default font to Roboto */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Change navigation background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Center align header content */
+}
+
+header h1 {
+    margin: 20px 0; /* Adjust spacing between title and navigation */
+    text-transform: uppercase; /* Transform title to uppercase */
+    font-size: 36px; /* Enlarge title font size */
+    color: #060505; /* Change title color */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif; /* Change font for navigation links */
+}
+
+nav ul li a:hover { /* Add hover effect for navigation links */
+    color: #FFD700; /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Position footer at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick to the bottom */
+}
+
+.contact-info {
+    text-align: center; /* Center align contact info */
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact-info a:hover {
+    color: #FFD700; /* Change color on hover */
+}
